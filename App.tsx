@@ -25,7 +25,6 @@ export default function App() {
           <Stack.Screen name={Routes.ShowEvent} component={EventScreen} />
           <Stack.Screen name={Routes.ShowArticle} component={ArticleScreen} />
         </Stack.Navigator>
-      <StatusBar style="auto" />
     </NavigationContainer>
   );
 }

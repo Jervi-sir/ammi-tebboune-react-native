@@ -98,6 +98,7 @@ export const M2Screen = () => {
 
           <Animated.FlatList
             data={data}
+            style={{ backgroundColor: 'white' }}
             renderItem={({ item }) => (<EventCard item={item} />)}
             keyExtractor={(item) => item.id.toString()}
             ItemSeparatorComponent={() => <View style={{ height: 20 }} />}
